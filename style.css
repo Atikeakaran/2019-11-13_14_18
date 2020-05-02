@@ -1,0 +1,26 @@
+/*ilk css kod*/
+h1,p{
+color: blue; font-style: italic;
+}
+h1{color: gray;}
+.myFirstClass{
+    color: chocolate;
+}
+#h1ID{color: blueviolet;}
+
+.myFirstClass:hover{
+    color: aqua;
+}
+h2:first-child{
+
+    color: green;
+}
+p::selection{
+    color: rgb(114, 250, 198);
+}
+
+p::after{
+content: "my first After content";color: red;
+}
+
+
